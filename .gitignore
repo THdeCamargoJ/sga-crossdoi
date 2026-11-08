@@ -1,0 +1,32 @@
+# Security & Authentication
+.clasprc.json
+.env
+.env.*
+
+# GAS script configuration (contains private scriptId)
+.clasp.json
+
+# Node.js Dependencies
+node_modules/
+
+# Logs & Temporary Files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.clasp-history.json
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# IDE & Editor Settings
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln

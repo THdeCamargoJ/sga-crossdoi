@@ -1,0 +1,42 @@
+{
+  "name": "sga-crossdoi",
+  "version": "1.0.0",
+  "description": "Automates DOI creation and update workflows for theses and dissertations, developed for the Information Processing Division (Divisão de Tratamento da Informação -- DTRI) at Unicamp.",
+  "main": "src/main.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "lint": "gts check",
+    "lint:fix": "gts fix",
+    "push": "clasp push",
+    "pull": "clasp pull",
+    "watch": "clasp push --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/THdeCamargoJ/sga-crossdoi.git"
+  },
+  "keywords": [],
+  "author": {
+    "name": "T.H. de Camargo J.",
+    "email": "thdecamargoj@gmail.com",
+    "url": "https://github.com/THdeCamargoJ"
+  },
+  "license": "CC-BY-NC-4.0",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/THdeCamargoJ/sga-crossdoi/issues"
+  },
+  "homepage": "https://github.com/THdeCamargoJ/sga-crossdoi#readme",
+  "devDependencies": {
+    "@google/clasp": "^3.4.1",
+    "eslint-plugin-googleappsscript": "^1.0.5",
+    "gts": "^7.0.0",
+    "typescript": "^6.0.3"
+  },
+  "engines": {
+    "node": ">=24.22.1"
+  },
+  "private": true
+}

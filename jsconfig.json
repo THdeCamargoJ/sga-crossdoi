@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",             // Matches the modern V8 runtime of Google Apps Script.
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "lib": [
+      "ES2022"
+    ],
+    "checkJs": true,                // Allows typechecking of JS files
+    "strict": false,
+    "noEmit": true                  // Avoids TS compiler outputs of transpiled .js files
+  },
+  "include": [
+    "src/**/*"                      // @typedef across all files inside src
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

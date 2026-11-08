@@ -1,0 +1,21 @@
+# Exclude all root development assets from cloud push
+.git/**
+.github/**
+.vscode/**
+node_modules/**
+doc/**
+test/**
+assets/**
+tools/**
+package.json
+package-lock.json
+jsconfig.json
+eslint.config.js
+.eslintrc.json
+.prettierrc
+.env
+README.md
+
+# Include only src directory contents
+!src/**
+!appsscript.json
